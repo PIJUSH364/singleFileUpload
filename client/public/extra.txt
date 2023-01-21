@@ -1,0 +1,8 @@
+    {/* {
+        data?.map((item, key) => {
+          const base64String = btoa(String.fromCharCode(...new Uint8Array((item.img.data.data))));
+          console.log(item.img.contentType)
+          const base = "base64";
+          return <img src={`data:${item.img.contentType};${base},${base64String}`} alt="image" key={key} style={{ width: "150px" }} />
+        })
+      } */}
